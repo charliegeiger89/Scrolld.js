@@ -24,8 +24,10 @@
     "homepage": "http://scrolldjs.com",
     "docs": "https://github.com/charliegeiger89/Scrolld.js",
     "download": "https://github.com/charliegeiger89/Scrolld.js",
-    "demo": "http://scrolldjs.com/demo/demo.php"
+    "demo": "http://scrolldjs.com/demo/demo.php",
     "dependencies": {
         "jquery": ">=1.5"
     }
 }
+
+
