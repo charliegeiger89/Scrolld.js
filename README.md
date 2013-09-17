@@ -221,7 +221,7 @@ scrolldMobileFixed - Set boolean if your mobile layout uses a fixed header.
 
 // DEMO //
 
-Visit www.scrolldjs.com/demo.php for multiple demos.
+Visit www.scrolldjs.com/demo/demo.php for multiple demos.
 
 // DOWNLOAD //
 
