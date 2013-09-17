@@ -53,17 +53,15 @@ Ex:
 Scrolld.js was built with quick and simple customization in mind. You can easily customize the entire experience with these few parameters. 
 
 ```
-* Head to the defaults section of the scrolld.js / scrolld.min.js file *
+* Head to the defaults section of the Scrolld.js / Scrolld.min.js file *
 
 Web Settings: 
 
 var scrolldDistance = scrolldPre;
 var scrolldDistanceMin = scrolldPre;
-var scrolldCustom = 0;
 var scrolldSpeed = speed11;
 var scrolldEasing = 'scrolldEasing1';
 var scrolldFixed = true;
-var scrolldNavBar = fixedNavBar; 
 
 Mobile Settings:
 
@@ -74,7 +72,14 @@ var scrolldMobileDistanceMin = scrolldPre;
 var scrolldMobileSpeed = speed11;
 var scrolldMobileEasing = 'scrolldEasing1';
 var scrolldMobileFixed = true;
-var scrolldMobileNavBar = fixedNavBar;
+
+* Located the top of the Scrolld.js / Scrolld.min.js file *
+
+Additional Settings:
+
+var scrolldCustom = 0;
+var scrolldNavBar = 'fixedNavBar';
+var scrolldMobileNavBar = 'fixedNavBar';
 ```
 Targeting A Single Div Easing - Web, Or Mobile, Or Both:
 
@@ -104,8 +109,8 @@ scrolldCenter = Scrolls to div in the exact center of browser window
 ```scrolldCustom``` - Set additonal +- distance from target div (for top & pre settings only): 
 
 ```
-*scrolldCustom is separate from the other parameters*
-*It is located at the very top of the scrolld.js/scrolld.min.js file.*
+* Separate from the other parameters *
+* Located the top of the Scrolld.js / Scrolld.min.js file *
 
 scrolldCustom = 0*
 ```
@@ -143,7 +148,7 @@ scrolldEasing - Set scroll easing function type; Options include all jQuery pres
 jQuery Preset Easings:
 
 ```
-*Visit Easings.net for current jQuery easing presets in action.*
+* Visit Easings.net for current jQuery easing presets in action. *
 
 linear
 swing
@@ -190,9 +195,16 @@ scrolldFixed - Set boolean if you use a fixed website header:
 
 ```var scrolldFixed = true*; ```
 
-Note: If you use a fixed header, you must also define the id for the header div: 
+Note: If you use a fixed header, you must also define the id for the header div ( both mobile & web ): 
 
-```scrolldMobileNavBar = fixedNavBar```
+```
+* Separate from the other parameters *
+* Located the top of the Scrolld.js / Scrolld.min.js file *
+
+scrolldNavBar = 'fixedNavBar';
+scrolldMobileNavBar = 'fixedNavBar';
+
+```
 
 Scrolld Mobile Specific Settings:
 ```
