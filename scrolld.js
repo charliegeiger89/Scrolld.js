@@ -163,222 +163,230 @@
 					                    scrolldMobileFixed = false;
 				                    }
 				                    // Trigger Default Override W/ Individual Element In Line Class Easing Settings
-				                    if ($this.hasClass('linear')) {
-					                    scrolldEasing = 'linear';
-				                    }
-				                    if ($this.hasClass('linearMobile')) {
-					                    scrolldMobileEasing = 'linear';
-				                    }
-				                    if ($this.hasClass('swing')) {
-					                    scrolldEasing = 'swing';
-				                    }
-				                    if ($this.hasClass('swingMobile')) {
-					                    scrolldMobileEasing = 'swing';
-				                    }
-				                    if ($this.hasClass('jswing')) {
-					                    scrolldEasing = 'jswing';
-				                    }
-				                    if ($this.hasClass('jswingMobile')) {
-					                    scrolldMobileEasing = 'jswing';
-				                    }
-				                    if ($this.hasClass('easeInQuad')) {
-					                    scrolldEasing = 'easeInQuad';
-				                    }
-				                    if ($this.hasClass('easeInQuadMobile')) {
-					                    scrolldMobileEasing = 'easeInQuad';
-				                    }
-				                    if ($this.hasClass('easeOutQuad')) {
-					                    scrolldEasing = 'easeOutQuad';
-				                    }
-				                    if ($this.hasClass('easeOutQuadMobile')) {
-					                    scrolldMobileEasing = 'easeOutQuad';
-				                    }
-				                    if ($this.hasClass('easeInOutQuad')) {
-					                    scrolldEasing = 'easeInOutQuad';
-				                    }
-				                    if ($this.hasClass('easeInOutQuadMobile')) {
-					                    scrolldMobileEasing = 'easeInOutQuad';
-				                    }
-				                    if ($this.hasClass('easeInCubic')) {
-					                    scrolldEasing = 'easeInCubic';
-				                    }
-				                    if ($this.hasClass('easeInCubicMobile')) {
-					                    scrolldMobileEasing = 'easeInCubic';
-				                    }
-				                    if ($this.hasClass('easeOutCubic')) {
-					                    scrolldEasing = 'easeOutCubic';
-				                    }
-				                    if ($this.hasClass('easeOutCubicMobile')) {
-					                    scrolldMobileEasing = 'easeOutCubic';
-				                    }
-				                    if ($this.hasClass('easeInOutCubic')) {
-					                    scrolldEasing = 'easeInOutCubic';
-				                    }
-				                    if ($this.hasClass('easeInOutCubicMobile')) {
-					                    scrolldMobileEasing = 'easeInOutCubic';
-				                    }
-				                    if ($this.hasClass('easeInQuart')) {
-					                    scrolldEasing = 'easeInQuart';
-				                    }
-				                    if ($this.hasClass('easeInQuartMobile')) {
-					                    scrolldMobileEasing = 'easeInQuart';
-				                    }
-				                    if ($this.hasClass('easeOutQuart')) {
-					                    scrolldEasing = 'easeOutQuart';
-				                    }
-				                    if ($this.hasClass('easeOutQuartMobile')) {
-					                    scrolldMobileEasing = 'easeOutQuart';
-				                    }
-				                    if ($this.hasClass('easeInOutQuart')) {
-					                    scrolldEasing = 'easeInOutQuart';
-				                    }
-				                    if ($this.hasClass('easeInOutQuartMobile')) {
-					                    scrolldMobileEasing = 'easeInOutQuart';
-				                    }
-				                    if ($this.hasClass('easeInQuint')) {
-					                    scrolldEasing = 'easeInQuint';
-				                    }
-				                    if ($this.hasClass('easeInQuintMobile')) {
-					                    scrolldMobileEasing = 'easeInQuint';
-				                    }
-				                    if ($this.hasClass('easeOutQuint')) {
-					                    scrolldEasing = 'easeOutQuint';
-				                    }
-				                    if ($this.hasClass('easeOutQuintMobile')) {
-					                    scrolldMobileEasing = 'easeOutQuint';
-				                    }
-				                    if ($this.hasClass('easeInOutQuint')) {
-					                    scrolldEasing = 'easeInOutQuint';
-				                    }
-				                    if ($this.hasClass('easeInOutQuintMobile')) {
-					                    scrolldMobileEasing = 'easeInOutQuint';
-				                    }
-				                    if ($this.hasClass('easeInSine')) {
-					                    scrolldEasing = 'easeInSine';
-				                    }
-				                    if ($this.hasClass('easeInSineMobile')) {
-					                    scrolldMobileEasing = 'easeInSine';
-				                    }
-				                    if ($this.hasClass('easeOutSine')) {
-					                    scrolldEasing = 'easeOutSine';
-				                    }
-				                    if ($this.hasClass('easeOutSineMobile')) {
-					                    scrolldMobileEasing = 'easeOutSine';
-				                    }
-				                    if ($this.hasClass('easeInOutSine')) {
-					                    scrolldEasing = 'easeInOutSine';
-				                    }
-				                    if ($this.hasClass('easeInOutSineMobile')) {
-					                    scrolldMobileEasing = 'easeInOutSine';
-				                    }
-				                    if ($this.hasClass('easeInExpo')) {
-					                    scrolldEasing = 'easeInExpo';
-				                    }
-				                    if ($this.hasClass('easeInExpoMobile')) {
-					                    scrolldMobileEasing = 'easeInExpo';
-				                    }
-				                    if ($this.hasClass('easeOutExpo')) {
-					                    scrolldEasing = 'easeOutExpo';
-				                    }
-				                    if ($this.hasClass('easeOutExpoMobile')) {
-					                    scrolldMobileEasing = 'easeOutExpo';
-				                    }
-				                    if ($this.hasClass('easeInOutExpo')) {
-					                    scrolldEasing = 'easeInOutExpo';
-				                    }
-				                    if ($this.hasClass('easeInOutExpoMobile')) {
-					                    scrolldMobileEasing = 'easeInOutExpo';
-				                    }
-				                    if ($this.hasClass('easeInCirc')) {
-					                    scrolldEasing = 'easeInCirc';
-				                    }
-				                    if ($this.hasClass('easeInCircMobile')) {
-					                    scrolldMobileEasing = 'easeInCirc';
-				                    }
-				                    if ($this.hasClass('easeOutCirc')) {
-					                    scrolldEasing = 'easeOutCirc';
-				                    }
-				                    if ($this.hasClass('easeOutCircMobile')) {
-					                    scrolldMobileEasing = 'easeOutCirc';
-				                    }
-				                    if ($this.hasClass('easeInOutCirc')) {
-					                    scrolldEasing = 'easeInOutCirc';
-				                    }
-				                    if ($this.hasClass('easeInOutCircMobile')) {
-					                    scrolldMobileEasing = 'easeInOutCirc';
-				                    }
-				                    if ($this.hasClass('easeInElastic')) {
-					                    scrolldEasing = 'easeInElastic';
-				                    }
-				                    if ($this.hasClass('easeInElasticMobile')) {
-					                    scrolldMobileEasing = 'easeInElastic';
-				                    }
-				                    if ($this.hasClass('easeOutElastic')) {
-					                    scrolldEasing = 'easeOutElastic';
-				                    }
-				                    if ($this.hasClass('easeOutElasticMobile')) {
-					                    scrolldMobileEasing = 'easeOutElastic';
-				                    }
-				                    if ($this.hasClass('easeInOutElastic')) {
-					                    scrolldEasing = 'easeInOutElastic';
-				                    }
-				                    if ($this.hasClass('easeInOutElasticMobile')) {
-					                    scrolldMobileEasing = 'easeInOutElastic';
-				                    }
-				                    if ($this.hasClass('easeInBack')) {
-					                    scrolldEasing = 'easeInBack';
-				                    }
-				                    if ($this.hasClass('easeInBackMobile')) {
-					                    scrolldMobileEasing = 'easeInBack';
-				                    }
-				                    if ($this.hasClass('easeOutBack')) {
-					                    scrolldEasing = 'easeOutBack';
-				                    }
-				                    if ($this.hasClass('easeOutBackMobile')) {
-					                    scrolldMobileEasing = 'easeOutBack';
-				                    }
-				                    if ($this.hasClass('easeInOutBack')) {
-					                    scrolldEasing = 'easeInOutBack';
-				                    }
-				                    if ($this.hasClass('easeInOutBackMobile')) {
-					                    scrolldMobileEasing = 'easeInOutBack';
-				                    }
-				                    if ($this.hasClass('easeInBounce')) {
-					                    scrolldEasing = 'easeInBounce';
-				                    }
-				                    if ($this.hasClass('easeInBounceMobile')) {
-					                    scrolldMobileEasing = 'easeInBounce';
-				                    }
-				                    if ($this.hasClass('easeOutBounce')) {
-					                    scrolldEasing = 'easeOutBounce';
-				                    }
-				                    if ($this.hasClass('easeOutBounceMobile')) {
-					                    scrolldMobileEasing = 'easeOutBounce';
-				                    }
-				                    if ($this.hasClass('easeInOutBounce')) {
-					                    scrolldEasing = 'easeInOutBounce';
-				                    }
-				                    if ($this.hasClass('easeInOutBounceMobile')) {
-					                    scrolldMobileEasing = 'easeInOutBounce';
-				                    }
-				                    if ($this.hasClass('scrolldEasing1')) {
-					                    scrolldEasing = 'scrolldEasing1';
-				                    }
-				                    if ($this.hasClass('scrolldEasing1Mobile')) {
-					                    scrolldMobileEasing = 'scrolldEasing1';
-				                    }
-				                    if ($this.hasClass('scrolldEasing2')) {
-					                    scrolldEasing = 'scrolldEasing2';
-				                    }
-				                    if ($this.hasClass('scrolldEasing2Mobile')) {
-					                    scrolldMobileEasing = 'scrolldEasing2';
-				                    }
-				                    if ($this.hasClass('scrolldEasing3')) {
-					                    scrolldEasing = 'scrolldEasing3';
-				                    }
-				                    if ($this.hasClass('scrolldEasing3Mobile')) {
-					                    scrolldMobileEasing = 'scrolldEasing3';
-				                    }
+				                    var className = $(this).attr('class');
+                                    var classCheck = $(this).hasClass(className);
+
+                                    switch (classCheck) {
+                                        case 'linear':
+                                            scrolldEasing = 'linear';
+                                            break;
+                                        case 'linearMobile':
+                                            scrolldMobileEasing = 'linear';
+                                            break;
+                                        case 'swing':
+                                            scrolldEasing = 'swing';
+                                            break;
+                                        case 'swingMobile':
+                                            scrolldMobileEasing = 'swing';
+                                            break;
+                                        case 'jswing':
+                                            scrolldEasing = 'jswing';
+                                            break;
+                                        case 'jswingMobile':
+                                            scrolldMobileEasing = 'jswing';
+                                            break;
+                                        case 'easeInQuad':
+                                            scrolldEasing = 'easeInQuad';
+                                            break;
+                                        case 'easeInQuadMobile':
+                                            scrolldMobileEasing = 'easeInQuad';
+                                            break;
+                                        case 'easeOutQuad':
+                                            scrolldEasing = 'easeOutQuad';
+                                            break;
+                                        case 'easeOutQuadMobile':
+                                            scrolldMobileEasing = 'easeOutQuad';
+                                            break;
+                                        case 'easeInOutQuad':
+                                            scrolldEasing = 'easeInOutQuad';
+                                            break;
+                                        case 'easeInOutQuadMobile':
+                                            scrolldMobileEasing = 'easeInOutQuad';
+                                            break;
+                                        case 'easeInCubic':
+                                            scrolldEasing = 'easeInCubic';
+                                            break;
+                                        case 'easeInCubicMobile':
+                                            scrolldMobileEasing = 'easeInCubic';
+                                            break;
+                                        case 'easeOutCubic':
+                                            scrolldEasing = 'easeOutCubic';
+                                            break;
+                                        case 'easeOutCubicMobile':
+                                            scrolldMobileEasing = 'easeOutCubic';
+                                            break;
+                                        case 'easeInOutCubic':
+                                            scrolldEasing = 'easeInOutCubic';
+                                            break;
+                                        case 'easeInOutCubicMobile':
+                                            scrolldMobileEasing = 'easeInOutCubic';
+                                            break;
+                                        case 'easeInQuart':
+                                            scrolldEasing = 'easeInQuart';
+                                            break;
+                                        case 'easeInQuartMobile':
+                                            scrolldMobileEasing = 'easeInQuart';
+                                            break;
+                                        case 'easeOutQuart':
+                                            scrolldEasing = 'easeOutQuart';
+                                            break;
+                                        case 'easeOutQuartMobile':
+                                            scrolldMobileEasing = 'easeOutQuart';
+                                            break;
+                                        case 'easeInOutQuart':
+                                            scrolldEasing = 'easeInOutQuart';
+                                            break;
+                                        case 'easeInOutQuartMobile':
+                                            scrolldMobileEasing = 'easeInOutQuart';
+                                            break;
+                                        case 'easeInQuint':
+                                            scrolldEasing = 'easeInQuint';
+                                            break;
+                                        case 'easeInQuintMobile':
+                                            scrolldMobileEasing = 'easeInQuint';
+                                            break;
+                                        case 'easeOutQuint':
+                                            scrolldEasing = 'easeOutQuint';
+                                            break;
+                                        case 'easeOutQuintMobile':
+                                            scrolldMobileEasing = 'easeOutQuint';
+                                            break;
+                                        case 'easeInOutQuint':
+                                            scrolldEasing = 'easeInOutQuint';
+                                            break;
+                                        case 'easeInOutQuintMobile':
+                                            scrolldMobileEasing = 'easeInOutQuint';
+                                            break;
+                                        case 'easeInSine':
+                                            scrolldEasing = 'easeInSine';
+                                            break;
+                                        case 'easeInSineMobile':
+                                            scrolldMobileEasing = 'easeInSine';
+                                            break;
+                                        case 'easeOutSine':
+                                            scrolldEasing = 'easeOutSine';
+                                            break;
+                                        case 'easeOutSineMobile':
+                                            scrolldMobileEasing = 'easeOutSine';
+                                            break;
+                                        case 'easeInOutSine':
+                                            scrolldEasing = 'easeInOutSine';
+                                            break;
+                                        case 'easeInOutSineMobile':
+                                            scrolldMobileEasing = 'easeInOutSine';
+                                            break;
+                                        case 'easeInExpo':
+                                            scrolldEasing = 'easeInExpo';
+                                            break;
+                                        case 'easeInExpoMobile':
+                                            scrolldMobileEasing = 'easeInExpo';
+                                            break;
+                                        case 'easeOutExpo':
+                                            scrolldEasing = 'easeOutExpo';
+                                            break;
+                                        case 'easeOutExpoMobile':
+                                            scrolldMobileEasing = 'easeOutExpo';
+                                            break;
+                                        case 'easeInOutExpo':
+                                            scrolldEasing = 'easeInOutExpo';
+                                            break;
+                                        case 'easeInOutExpoMobile':
+                                            scrolldMobileEasing = 'easeInOutExpo';
+                                            break;
+                                        case 'easeInCirc':
+                                            scrolldEasing = 'easeInCirc';
+                                            break;
+                                        case 'easeInCircMobile':
+                                            scrolldMobileEasing = 'easeInCirc';
+                                            break;
+                                        case 'easeOutCirc':
+                                            scrolldEasing = 'easeOutCirc';
+                                            break;
+                                        case 'easeOutCircMobile':
+                                            scrolldMobileEasing = 'easeOutCirc';
+                                            break;
+                                        case 'easeInOutCirc':
+                                            scrolldEasing = 'easeInOutCirc';
+                                            break;
+                                        case 'easeInOutCircMobile':
+                                            scrolldMobileEasing = 'easeInOutCirc';
+                                            break;
+                                        case 'easeInElastic':
+                                            scrolldEasing = 'easeInElastic';
+                                            break;
+                                        case 'easeInElasticMobile':
+                                            scrolldMobileEasing = 'easeInElastic';
+                                            break;
+                                        case 'easeOutElastic':
+                                            scrolldEasing = 'easeOutElastic';
+                                            break;
+                                        case 'easeOutElasticMobile':
+                                            scrolldMobileEasing = 'easeOutElastic';
+                                            break;
+                                        case 'easeInOutElastic':
+                                            scrolldEasing = 'easeInOutElastic';
+                                            break;
+                                        case 'easeInOutElasticMobile':
+                                            scrolldMobileEasing = 'easeInOutElastic';
+                                            break;
+                                        case 'easeInBack':
+                                            scrolldEasing = 'easeInBack';
+                                            break;
+                                        case 'easeInBackMobile':
+                                            scrolldMobileEasing = 'easeInBack';
+                                            break;
+                                        case 'easeOutBack':
+                                            scrolldEasing = 'easeOutBack';
+                                            break;
+                                        case 'easeOutBackMobile':
+                                            scrolldMobileEasing = 'easeOutBack';
+                                            break;
+                                        case 'easeInOutBack':
+                                            scrolldEasing = 'easeInOutBack';
+                                            break;
+                                        case 'easeInOutBackMobile':
+                                            scrolldMobileEasing = 'easeInOutBack';
+                                            break;
+                                        case 'easeInBounce':
+                                            scrolldEasing = 'easeInBounce';
+                                            break;
+                                        case 'easeInBounceMobile':
+                                            scrolldMobileEasing = 'easeInBounce';
+                                            break;
+                                        case 'easeOutBounce':
+                                            scrolldEasing = 'easeOutBounce';
+                                            break;
+                                        case 'easeOutBounceMobile':
+                                            scrolldMobileEasing = 'easeOutBounce';
+                                            break;
+                                        case 'easeInOutBounce':
+                                            scrolldEasing = 'easeInOutBounce';
+                                            break;
+                                        case 'easeInOutBounceMobile':
+                                            scrolldMobileEasing = 'easeInOutBounce';
+                                            break;
+                                        case 'scrolldEasing1':
+                                            scrolldEasing = 'scrolldEasing1';
+                                            break;
+                                        case 'scrolldEasing1Mobile':
+                                            scrolldMobileEasing = 'scrolldEasing1';
+                                            break;
+                                        case 'scrolldEasing2':
+                                            scrolldEasing = 'scrolldEasing2';
+                                            break;
+                                        case 'scrolldEasing2Mobile':
+                                            scrolldMobileEasing = 'scrolldEasing2';
+                                            break;
+                                        case 'scrolldEasing3':
+                                            scrolldEasing = 'scrolldEasing3';
+                                            break;
+                                        case 'scrolldEasing3Mobile':
+                                            scrolldMobileEasing = 'scrolldEasing3';
+                                            break;
+                                        default:
+                                            scrolldEasing = scrolldEasing;
+                                            scrolldMobileEasing = scrolldMobileEasing;
+                                    }
 				                    /// Dynamic Scrolling / Set Animation
 				                    // Mobile Only
 				                    if (x < scrolldMobileWidth) {
