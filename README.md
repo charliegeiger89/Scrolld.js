@@ -1,5 +1,12 @@
 Scrolld.js
 ==========
+
+COMMENTS, QUESTIONS, BUGS? FEEL FREE TO CONTACT AT:
+
+scrolldjs@gmail.com
+
+==========
+
 README
 
 1. About
