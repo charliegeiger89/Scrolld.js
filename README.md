@@ -7,16 +7,15 @@ scrolldjs@gmail.com
 
 ==========
 
-README
+* 1. [About](#about)
+* 2. [Use](#how-to-use)
+* 3. [Tweaks](#tweaks)
+ * 3.1 [Detailed Settings Information](detailed-settings-information)
+* 4. [Demo](#demo)
+* 5. [Download](#download)
+* 6. [License](#license)
 
-1. About
-2. Use
-3. Tweaks
-4. Demo
-5. Download
-6. License
-
-// ABOUT //
+### ABOUT
 
 Scrolld.js is a unique open source plugin for jQuery.
 Scrolld.js provides a method for highly precise scrolling for pixel-perfect layouts and navigation using real-time updated data values.
@@ -26,41 +25,44 @@ Scrolld.js is intended for easy use and is fully deployable within minutes.
 
 * Scrolld.js is simple and works with just an element id tag. *
 
-// HOW TO USE //
+### HOW TO USE
 
-1 | Download the source & upload it to your server.
+**1** - Download the source & upload it to your server.
 
-2 | Place the script include file on your page: 
-
-Ex:
-
- ```<script type="text/javascript" src="../js/scrolld.js"></script> ```
-
-3 | Place this trigger script at bottom of body:
+**2** - Place the script include file on your page: 
 
 Ex:
 
-```
+ ```html
+ <script type="text/javascript" src="../js/scrolld.js"></script>
+ ```
+
+**3** - Place this trigger script at bottom of body:
+
+Ex:
+```html
 <script type="text/javascript">
 $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();})
 </script>
 ```
 
-4 | Use specific id tags to control scrolling, one for the anchor & one for the target.
+**4** - Use specific id tags to control scrolling, one for the anchor & one for the target.
 Anchor id must be in the format of *Btn and target id must be *.
 
 Ex:
-```<a id='useBtn' class='*' href='*'>```
-```<div id='use' class='*'>```
+```html
+<a id='useBtn' class='*' href='*'>
+<div id='use' class='*'>
+```
 
-5 | Keep the defaults or easily tweak the settings for a custom fit.
+**5** - Keep the defaults or easily tweak the settings for a custom fit.
 
-// TWEAKS //
+### TWEAKS
 
 Scrolld.js was built with quick and simple customization in mind. You can easily customize the entire experience with these few parameters. 
 
-```
-* Head to the defaults section of the Scrolld.js / Scrolld.min.js file *
+```javascript
+// *Head to the defaults section of the Scrolld.js / Scrolld.min.js file *
 
 Web Settings: 
 
@@ -80,7 +82,7 @@ var scrolldMobileSpeed = speed11;
 var scrolldMobileEasing = 'scrolldEasing1';
 var scrolldMobileFixed = true;
 
-* Located the top of the Scrolld.js / Scrolld.min.js file *
+// * Located the top of the Scrolld.js / Scrolld.min.js file *
 
 Additional Settings:
 
@@ -93,10 +95,12 @@ Targeting A Single Div Easing - Web, Or Mobile, Or Both:
 Simply give the anchor a class name of the desired easing method, include Mobile at the end of the class to target only mobile, include both to target both.
 
 Ex:
-```<a id='useBtn' class='easeOutBounce easeOutBounceMobile' href='*'>```
+```html
+<a id='useBtn' class='easeOutBounce easeOutBounceMobile' href='*'>
+```
 
 
-// DETAILED SETTINGS INFORMATION
+#### DETAILED SETTINGS INFORMATION
 
 
 ```scrolldDistance``` - Set scroll distance from target div: 
@@ -226,15 +230,15 @@ scrolldMobileFixed - Set boolean if your mobile layout uses a fixed header.
 
 ```* Indicates default values.```
 
-// DEMO //
+### DEMO
 
 Visit www.scrolldjs.com/demo/demo.php for multiple demos.
 
-// DOWNLOAD //
+### DOWNLOAD
 
 Visit the Scrolld.js GitHub repository for download link.
 
-// LICENSE //
+### LICENSE
 
 (MIT License)
 
