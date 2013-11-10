@@ -163,7 +163,7 @@
 					                    scrolldMobileFixed = false;
 				                    }
 				                    // Trigger Default Override W/ Individual Element In Line Class Easing Settings
-                                    var classList = $(this).attr('class'),
+                                    var classList = $(this).attr('class').split(/\s+/),
                                         easings = {
                                             linear: 'linear',
                                             swing: 'swing',
@@ -239,18 +239,20 @@
                                             scrolldEasing1Mobile: 'scrolldEasing1',
                                             scrolldEasing2Mobile: 'scrolldEasing2',
                                             scrolldEasing3Mobile: 'scrolldEasing3'
-                                        }
-                                    for (var easingClass in easings) {
-                                        if (classList.indexOf(easingClass) !== -1) {
-                                            scrolldEasing = easings[easingClass];
-                                            break;
-                                        }
+                                        };
+                                    for (var i = 0; i < classList.length; i++) {
+                                    	var cssClass = classList[i];
+                                    	if (easings[cssClass]) {
+                                    		scrolldEasing = easings[cssClass];
+                                    		break;
+                                    	}
                                     }
-                                    for (var easingClass in mobileEasings) {
-                                        if (classList.indexOf(easingClass) !== -1) {
-                                            scrolldMobileEasing = mobileEasings[easingClass];
-                                            break;
-                                        }
+                                    for (var i = 0; i < classList.length; i++) {
+                                    	var cssClass = classList[i];
+                                    	if (mobileEasings[cssClass]) {
+                                    		scrolldMobileEasing = mobileEasings[cssClass];
+                                    		break;
+                                    	}
                                     }
 
 				                    /// Dynamic Scrolling / Set Animation
