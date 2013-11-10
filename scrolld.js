@@ -163,230 +163,96 @@
 					                    scrolldMobileFixed = false;
 				                    }
 				                    // Trigger Default Override W/ Individual Element In Line Class Easing Settings
-				                    var className = $(this).attr('class');
-                                    var classCheck = $(this).hasClass(className);
-
-                                    switch (classCheck) {
-                                        case 'linear':
-                                            scrolldEasing = 'linear';
-                                            break;
-                                        case 'linearMobile':
-                                            scrolldMobileEasing = 'linear';
-                                            break;
-                                        case 'swing':
-                                            scrolldEasing = 'swing';
-                                            break;
-                                        case 'swingMobile':
-                                            scrolldMobileEasing = 'swing';
-                                            break;
-                                        case 'jswing':
-                                            scrolldEasing = 'jswing';
-                                            break;
-                                        case 'jswingMobile':
-                                            scrolldMobileEasing = 'jswing';
-                                            break;
-                                        case 'easeInQuad':
-                                            scrolldEasing = 'easeInQuad';
-                                            break;
-                                        case 'easeInQuadMobile':
-                                            scrolldMobileEasing = 'easeInQuad';
-                                            break;
-                                        case 'easeOutQuad':
-                                            scrolldEasing = 'easeOutQuad';
-                                            break;
-                                        case 'easeOutQuadMobile':
-                                            scrolldMobileEasing = 'easeOutQuad';
-                                            break;
-                                        case 'easeInOutQuad':
-                                            scrolldEasing = 'easeInOutQuad';
-                                            break;
-                                        case 'easeInOutQuadMobile':
-                                            scrolldMobileEasing = 'easeInOutQuad';
-                                            break;
-                                        case 'easeInCubic':
-                                            scrolldEasing = 'easeInCubic';
-                                            break;
-                                        case 'easeInCubicMobile':
-                                            scrolldMobileEasing = 'easeInCubic';
-                                            break;
-                                        case 'easeOutCubic':
-                                            scrolldEasing = 'easeOutCubic';
-                                            break;
-                                        case 'easeOutCubicMobile':
-                                            scrolldMobileEasing = 'easeOutCubic';
-                                            break;
-                                        case 'easeInOutCubic':
-                                            scrolldEasing = 'easeInOutCubic';
-                                            break;
-                                        case 'easeInOutCubicMobile':
-                                            scrolldMobileEasing = 'easeInOutCubic';
-                                            break;
-                                        case 'easeInQuart':
-                                            scrolldEasing = 'easeInQuart';
-                                            break;
-                                        case 'easeInQuartMobile':
-                                            scrolldMobileEasing = 'easeInQuart';
-                                            break;
-                                        case 'easeOutQuart':
-                                            scrolldEasing = 'easeOutQuart';
-                                            break;
-                                        case 'easeOutQuartMobile':
-                                            scrolldMobileEasing = 'easeOutQuart';
-                                            break;
-                                        case 'easeInOutQuart':
-                                            scrolldEasing = 'easeInOutQuart';
-                                            break;
-                                        case 'easeInOutQuartMobile':
-                                            scrolldMobileEasing = 'easeInOutQuart';
-                                            break;
-                                        case 'easeInQuint':
-                                            scrolldEasing = 'easeInQuint';
-                                            break;
-                                        case 'easeInQuintMobile':
-                                            scrolldMobileEasing = 'easeInQuint';
-                                            break;
-                                        case 'easeOutQuint':
-                                            scrolldEasing = 'easeOutQuint';
-                                            break;
-                                        case 'easeOutQuintMobile':
-                                            scrolldMobileEasing = 'easeOutQuint';
-                                            break;
-                                        case 'easeInOutQuint':
-                                            scrolldEasing = 'easeInOutQuint';
-                                            break;
-                                        case 'easeInOutQuintMobile':
-                                            scrolldMobileEasing = 'easeInOutQuint';
-                                            break;
-                                        case 'easeInSine':
-                                            scrolldEasing = 'easeInSine';
-                                            break;
-                                        case 'easeInSineMobile':
-                                            scrolldMobileEasing = 'easeInSine';
-                                            break;
-                                        case 'easeOutSine':
-                                            scrolldEasing = 'easeOutSine';
-                                            break;
-                                        case 'easeOutSineMobile':
-                                            scrolldMobileEasing = 'easeOutSine';
-                                            break;
-                                        case 'easeInOutSine':
-                                            scrolldEasing = 'easeInOutSine';
-                                            break;
-                                        case 'easeInOutSineMobile':
-                                            scrolldMobileEasing = 'easeInOutSine';
-                                            break;
-                                        case 'easeInExpo':
-                                            scrolldEasing = 'easeInExpo';
-                                            break;
-                                        case 'easeInExpoMobile':
-                                            scrolldMobileEasing = 'easeInExpo';
-                                            break;
-                                        case 'easeOutExpo':
-                                            scrolldEasing = 'easeOutExpo';
-                                            break;
-                                        case 'easeOutExpoMobile':
-                                            scrolldMobileEasing = 'easeOutExpo';
-                                            break;
-                                        case 'easeInOutExpo':
-                                            scrolldEasing = 'easeInOutExpo';
-                                            break;
-                                        case 'easeInOutExpoMobile':
-                                            scrolldMobileEasing = 'easeInOutExpo';
-                                            break;
-                                        case 'easeInCirc':
-                                            scrolldEasing = 'easeInCirc';
-                                            break;
-                                        case 'easeInCircMobile':
-                                            scrolldMobileEasing = 'easeInCirc';
-                                            break;
-                                        case 'easeOutCirc':
-                                            scrolldEasing = 'easeOutCirc';
-                                            break;
-                                        case 'easeOutCircMobile':
-                                            scrolldMobileEasing = 'easeOutCirc';
-                                            break;
-                                        case 'easeInOutCirc':
-                                            scrolldEasing = 'easeInOutCirc';
-                                            break;
-                                        case 'easeInOutCircMobile':
-                                            scrolldMobileEasing = 'easeInOutCirc';
-                                            break;
-                                        case 'easeInElastic':
-                                            scrolldEasing = 'easeInElastic';
-                                            break;
-                                        case 'easeInElasticMobile':
-                                            scrolldMobileEasing = 'easeInElastic';
-                                            break;
-                                        case 'easeOutElastic':
-                                            scrolldEasing = 'easeOutElastic';
-                                            break;
-                                        case 'easeOutElasticMobile':
-                                            scrolldMobileEasing = 'easeOutElastic';
-                                            break;
-                                        case 'easeInOutElastic':
-                                            scrolldEasing = 'easeInOutElastic';
-                                            break;
-                                        case 'easeInOutElasticMobile':
-                                            scrolldMobileEasing = 'easeInOutElastic';
-                                            break;
-                                        case 'easeInBack':
-                                            scrolldEasing = 'easeInBack';
-                                            break;
-                                        case 'easeInBackMobile':
-                                            scrolldMobileEasing = 'easeInBack';
-                                            break;
-                                        case 'easeOutBack':
-                                            scrolldEasing = 'easeOutBack';
-                                            break;
-                                        case 'easeOutBackMobile':
-                                            scrolldMobileEasing = 'easeOutBack';
-                                            break;
-                                        case 'easeInOutBack':
-                                            scrolldEasing = 'easeInOutBack';
-                                            break;
-                                        case 'easeInOutBackMobile':
-                                            scrolldMobileEasing = 'easeInOutBack';
-                                            break;
-                                        case 'easeInBounce':
-                                            scrolldEasing = 'easeInBounce';
-                                            break;
-                                        case 'easeInBounceMobile':
-                                            scrolldMobileEasing = 'easeInBounce';
-                                            break;
-                                        case 'easeOutBounce':
-                                            scrolldEasing = 'easeOutBounce';
-                                            break;
-                                        case 'easeOutBounceMobile':
-                                            scrolldMobileEasing = 'easeOutBounce';
-                                            break;
-                                        case 'easeInOutBounce':
-                                            scrolldEasing = 'easeInOutBounce';
-                                            break;
-                                        case 'easeInOutBounceMobile':
-                                            scrolldMobileEasing = 'easeInOutBounce';
-                                            break;
-                                        case 'scrolldEasing1':
-                                            scrolldEasing = 'scrolldEasing1';
-                                            break;
-                                        case 'scrolldEasing1Mobile':
-                                            scrolldMobileEasing = 'scrolldEasing1';
-                                            break;
-                                        case 'scrolldEasing2':
-                                            scrolldEasing = 'scrolldEasing2';
-                                            break;
-                                        case 'scrolldEasing2Mobile':
-                                            scrolldMobileEasing = 'scrolldEasing2';
-                                            break;
-                                        case 'scrolldEasing3':
-                                            scrolldEasing = 'scrolldEasing3';
-                                            break;
-                                        case 'scrolldEasing3Mobile':
-                                            scrolldMobileEasing = 'scrolldEasing3';
-                                            break;
-                                        default:
-                                            scrolldEasing = scrolldEasing;
-                                            scrolldMobileEasing = scrolldMobileEasing;
+                                    var classList = $(this).attr('class'),
+                                        easings {
+                                            linear: linear',
+                                            swing: swing',
+                                            jswing: jswing',
+                                            easeInQuad: easeInQuad',
+                                            easeOutQuad: easeOutQuad',
+                                            easeInOutQuad: easeInOutQuad',
+                                            easeInCubic: easeInCubic',
+                                            easeOutCubic: easeOutCubic',
+                                            easeInOutCubic: easeInOutCubic',
+                                            easeInQuart: easeInQuart',
+                                            easeOutQuart: easeOutQuart',
+                                            easeInOutQuart: easeInOutQuart',
+                                            easeInQuint: easeInQuint',
+                                            easeOutQuint: easeOutQuint',
+                                            easeInOutQuint: easeInOutQuint',
+                                            easeInSine: easeInSine',
+                                            easeOutSine: easeOutSine',
+                                            easeInOutSine: easeInOutSine',
+                                            easeInExpo: easeInExpo',
+                                            easeOutExpo: easeOutExpo',
+                                            easeInOutExpo: easeInOutExpo',
+                                            easeInCirc: easeInCirc',
+                                            easeOutCirc: easeOutCirc',
+                                            easeInOutCirc: easeInOutCirc',
+                                            easeInElastic: easeInElastic',
+                                            easeOutElastic: easeOutElastic',
+                                            easeInOutElastic: easeInOutElastic',
+                                            easeInBack: easeInBack',
+                                            easeOutBack: easeOutBack',
+                                            easeInOutBack: easeInOutBack',
+                                            easeInBounce: easeInBounce',
+                                            easeOutBounce: easeOutBounce',
+                                            easeInOutBounce: easeInOutBounce',
+                                            scrolldEasing1: scrolldEasing1',
+                                            scrolldEasing2: scrolldEasing2',
+                                            scrolldEasing3: scrolldEasing3'
+                                        },
+                                        mobileEasings = {
+                                            linearMobile: linear',
+                                            swingMobile: swing',
+                                            jswingMobile: jswing',
+                                            easeInQuadMobile: easeInQuad',
+                                            easeOutQuadMobile: easeOutQuad',
+                                            easeInOutQuadMobile: easeInOutQuad',
+                                            easeInCubicMobile: easeInCubic',
+                                            easeOutCubicMobile: easeOutCubic',
+                                            easeInOutCubicMobile: easeInOutCubic',
+                                            easeInQuartMobile: easeInQuart',
+                                            easeOutQuartMobile: easeOutQuart',
+                                            easeInOutQuartMobile: easeInOutQuart',
+                                            easeInQuintMobile: easeInQuint',
+                                            easeOutQuintMobile: easeOutQuint',
+                                            easeInOutQuintMobile: easeInOutQuint',
+                                            easeInSineMobile: easeInSine',
+                                            easeOutSineMobile: easeOutSine',
+                                            easeInOutSineMobile: easeInOutSine',
+                                            easeInExpoMobile: easeInExpo',
+                                            easeOutExpoMobile: easeOutExpo',
+                                            easeInOutExpoMobile: easeInOutExpo',
+                                            easeInCircMobile: easeInCirc',
+                                            easeOutCircMobile: easeOutCirc',
+                                            easeInOutCircMobile: easeInOutCirc',
+                                            easeInElasticMobile: easeInElastic',
+                                            easeOutElasticMobile: easeOutElastic',
+                                            easeInOutElasticMobile: easeInOutElastic',
+                                            easeInBackMobile: easeInBack',
+                                            easeOutBackMobile: easeOutBack',
+                                            easeInOutBackMobile: easeInOutBack',
+                                            easeInBounceMobile: easeInBounce',
+                                            easeOutBounceMobile: easeOutBounce',
+                                            easeInOutBounceMobile: easeInOutBounce',
+                                            scrolldEasing1Mobile: scrolldEasing1',
+                                            scrolldEasing2Mobile: scrolldEasing2',
+                                            scrolldEasing3Mobile: scrolldEasing3'
+                                        }
+                                    for (var class in easings) {
+                                        if (classList.indexOf(class) !== -1) {
+                                            scrolldEasing = easings[class];
+                                            break;
+                                        }
                                     }
+                                    for (var class in mobileEasings) {
+                                        if (classList.indexOf(class) !== -1) {
+                                            scrolldMobileEasing = mobileEasings[class];
+                                            break;
+                                        }
+                                    }
+
 				                    /// Dynamic Scrolling / Set Animation
 				                    // Mobile Only
 				                    if (x < scrolldMobileWidth) {
