@@ -98,6 +98,16 @@ Ex:
 ```html
 <a id='useBtn' class='easeOutBounce easeOutBounceMobile' href='*'>
 ```
+Trigger a function after scroll completes, on animation end - Anything you want, toggle classes, alerts, etc:
+
+Script is located at the bottom of the plugin file, simply insert your desired functions there.
+
+Ex:
+```javascript
+$(":animated").promise().done(function(){
+//Write function here    
+});
+```
 
 
 #### DETAILED SETTINGS INFORMATION
