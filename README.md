@@ -10,7 +10,7 @@ scrolldjs@gmail.com
 * 1. [About](#about)
 * 2. [Use](#how-to-use)
 * 3. [Tweaks](#tweaks)
- * 3.1 [Detailed Settings Information](detailed-settings-information)
+ * 3.1 [Detailed Settings Information](#detailed-settings-information)
 * 4. [Demo](#demo)
 * 5. [Download](#download)
 * 6. [License](#license)
