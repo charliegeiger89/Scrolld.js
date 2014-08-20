@@ -20,8 +20,6 @@ scrolldjs@gmail.com
 Scrolld.js provides a method for highly precise scrolling for pixel-perfect layouts and navigation using real-time updated data values.
 Scrolld.js is intended for easy use and is fully deployable within minutes. The minified version is under 1KB.
 
-* Scrolld.js is simple and works with just an element id tag. *
-
 ### HOW TO USE
 
 **1** - Download the source & upload it to your server.
