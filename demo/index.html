@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <style>
+        div {
+            height: 500px;
+            width: 100%;
+            dispay: block;
+        }
+        div:nth-child(odd) {
+            background: #eee;
+        }
+        #target {
+            background: cyan;
+        }
+        #target2 {
+            background: red;
+        }
+    </style>
+    </head>
+    <body>
+    <div data-scrolld='target'>Testing Target</div>
+    <div data-scrolld='target2'>Testing Target 2</div>
+    <div></div>
+    <div id='target'>Target</div>
+    <div id='target2'>Target 2</div>
+    <div>Testing</div>
+    <div data-scrolld='target'>Testing Target</div>
+    <script src='../src/scripts/libs/jquery.2.1.1.js'></script>
+    <script src='../build/Scrolld.0.2.1.min.js'></script>
+    <script>
+
+    // Init scrolld.js
+    $('[data-scrolld]').scrolld();
+    </script>
+    </body>
+</html>
