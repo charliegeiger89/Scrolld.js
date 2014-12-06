@@ -47,7 +47,8 @@
         (function bindClicks() {
             var buttonsLength = buttons.length;
             for (var i = 0; i < buttonsLength; i++) {
-                $(buttons[i]).on('click', function() {
+                $(buttons[i]).on('click', function(e) {
+                    e.preventDefault();
                     update();
                     var targetID = $(this).data('scrolld');
                     var target = $('#' + targetID);
